@@ -34,7 +34,7 @@
   * 搜索: `O(n)`
   * 插入: `O(n)`
   * 移除: `O(n)`
- 
+
  ![Alt text](/res/arraylist.jpg?raw=true "SeqList")
 
 
@@ -43,7 +43,7 @@
   * 搜索: `O(n)`
   * 插入: `O(1)`
   * 移除: `O(1)`
- 
+
   ![Alt text](/res/linkedlist.jpg?raw=true "SinglyLinkedList")
 
 
@@ -121,19 +121,19 @@
 ### 排序
 #### **插入排序**
  * 直接插入排序(稳定)
- 
+
 ![Alt text](/res/insertsort1.jpg?raw=true "Hashing")
  * 希尔排序(不稳定)
- 
+
  ![Alt text](/res/insertsort2.jpg?raw=true "Hashing")
 
- 
+
 #### **交换排序**
 
  * 冒泡排序(稳定)
- 
+
   ![Alt text](/res/bubblesort.jpg?raw=true "Hashing")
-  
+
  * 快速排序(不稳定)  时间复杂度如下:
    * 最优时间: O(nlog(n))
    * 最坏时间: O(n^2)
@@ -143,17 +143,17 @@
 
 ####  **选择排序**
  * 直接选择排序(不稳定)
- 
+
       ![Alt text](/res/selectsort.jpg?raw=true "Hashing")
       
  * 堆排序(不稳定) 利用堆积树（堆）这种数据结构所设计的一种排序算法，它是选择排序的一种。可以利用数组的特点快速定位指定索引的元素。堆分为大根堆和小根堆，是完全二叉树。大根堆的要求是每个节点的值都不大于其父节点的值，即A[PARENT[i]] >= A[i]。在数组的非降序排序中，需要使用的就是大根堆，因为根据大根堆的要求可知，最大的值一定在堆顶。 时间复杂度如下：
    * 最优时间: O(nlog(n))
    * 最坏时间: O(nlog(n))
    * 平均时间: O(nlog(n))
-  
+    
        ![Alt text](/res/heapsort.jpg?raw=true "Hashing")
 
-  
+
 * 归并排序(稳定) 归并排序是利用一种分治的思想，它不断地将某个数组分为两个部分，分别对左子数组与右子数组进行排序，然后将两个数组合并为新的有序数组。时间复杂度如下:
   * 最优时间: O(nlog(n))
   * 最坏时间: O(nlog(n))
@@ -167,7 +167,7 @@
 * **BinarySortTree** 二叉排序树，一种特殊的二叉树，对于每一个结点，它的左孩子下所有的结点数值一定比它的右孩子下所有结点的数值小，构造过程如下:
 
    ![Alt text](/res/binarysort.jpg?raw=true "Hashing")     
-      
+   
 * **HashSet** 采用链地址法的散列表数据结构，内部使用了SinglyLinkedList数组存储元素
 
    ![Alt text](/res/hash.jpg?raw=true "Hashing")
@@ -181,4 +181,4 @@
 
 ## 联系我
 
-* 邮箱：doubleview@163.com
+* 邮箱：1761613173@qq.com
